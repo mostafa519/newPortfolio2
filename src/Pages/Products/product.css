@@ -1,0 +1,21 @@
+.ImagesEdit:hover {
+    opacity: 0.7 !important;
+    animation: 3s infinite slideProduct;
+    z-index: 10;
+}
+
+
+@keyframes slideProduct {
+
+    20%,
+    40% {
+        transform: translateY(100px);
+        background: yellow;
+    }
+
+    80%,
+    100% {
+        transform: translateY(-150px);
+        background: orange;
+    }
+}

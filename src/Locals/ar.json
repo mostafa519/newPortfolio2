@@ -1,0 +1,13 @@
+{
+    "app.name": "محل",
+    "app.description": "رياكت محل",
+    "app.products.caption": "تصفح منتجاتي",
+    "app.products.text": "لدينا مجموعة واسعة من المنتجات للاختيار من بينها. استكشف منتجاتنا وأضفها إلى سلة التسوق الخاصة بك.",
+    "app.cart": "منتج",
+    "app.cart.title": "منتجاتك",
+    "app.cart.empty": "ليس لديك منتجات", 
+    "app.cart.items":  "{count, plural, =0 {لا يوجد} one {يوجد منتج} other {لديك # منتجات}} في عربتك",
+    "app.cart.remove": "مسح",
+    "app.cart.add": "اضف منتج", 
+    "app.item.price": "{price , number , ::currency/EGP}"
+  }

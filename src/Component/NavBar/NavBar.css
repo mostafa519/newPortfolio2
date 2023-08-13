@@ -1,0 +1,22 @@
+.NavEditting{ 
+    position: fixed;
+    top: 0 !important;    
+     width: 100%; 
+     z-index: 8;
+}
+.navbar a:hover {
+    background: #555151;
+    color: rgb(243, 230, 230);
+    
+  }
+  .navbar a:checked {
+    background: #f1eaea;
+    color: black;
+  }
+  .LinkColors{
+    color: white; 
+  }
+  .navbar a{
+    text-decoration: none;
+  }
+  
