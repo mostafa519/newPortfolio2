@@ -23,7 +23,7 @@ export default function Main() {
         <Route path="/articles" element={<Articles />}></Route>
         <Route path="/product" element={<Product />}></Route>
         <Route path="/movies" element={<Movies/>}></Route>
-        <Route path="/skills" element={<Skills/>}></Route>
+        <Route path="/Product2" element={<Skills/>}></Route>
         <Route path="/contact" element={<FooterComponent/>}></Route>
         <Route path="/favorite" element={<Favorites/>}></Route>
         <Route path="*" element={<NotFound />}></Route>

@@ -6,8 +6,7 @@ import Spinner from "react-bootstrap/Spinner";
 import { useDispatch, useSelector } from "react-redux";
 import changeArticles from "../../Store/Actions/ArticlesAction";
 import { FaHeart } from "react-icons/fa";
-import "./articles.css";  
-import { Container } from "react-bootstrap";
+import "./articles.css";   
 import FooterComponent from "../../Component/Footer/Footer";
 
 const Articles = () => {

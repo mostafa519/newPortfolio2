@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaHeart } from "react-icons/fa";
 import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col"; 
 import Row from "react-bootstrap/Row";
 import axiosForProduct from "../../InstanceAxios/Products/ProductAxios";
 import "./product.css"

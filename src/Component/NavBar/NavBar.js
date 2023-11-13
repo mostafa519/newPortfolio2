@@ -144,7 +144,7 @@ function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary " style={{position:"fixed",top:"0",zIndex:"8",width:"100%" }}>
       <Container fluid>
-        <Navbar.Brand href="/">PortFolio</Navbar.Brand>
+        <Navbar.Brand href="/">Projects</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" ><span>Menu</span></Navbar.Toggle>
         <Navbar.Collapse id="navbarScroll">
           <Nav 
@@ -160,7 +160,7 @@ function NavScrollExample() {
               </NavDropdown.Item>
               <NavDropdown.Item to={"/product"}as={Link}>Products
               </NavDropdown.Item>
-              <NavDropdown.Item  to={"/skills"}as={Link}>another Product
+              <NavDropdown.Item  to={"/Product2"}as={Link}>another Product
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href='https://shop-do5k-git-main-mostafa519.vercel.app/'>Clothes Shop

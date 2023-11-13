@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "./Movies.css";
-import Form from "react-bootstrap/Form";
+// import Form from "react-bootstrap/Form";
 import { Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 
@@ -38,7 +38,7 @@ export default function Movies() {
   }, [currentPage]);
 
   const handlePrevPage = () => {
-    if (currentPage != 0) {
+    if (currentPage !== 0) {
       setCurrentPage(currentPage - 1);
     }
   };
@@ -48,22 +48,22 @@ export default function Movies() {
   }; 
   
   
-  const handleSearch = (event) => {
-    event.preventDefault();
-    let task = document.getElementById("form1").value;
-    const filtered = movies.filter(item =>
-      item.title.toLowerCase().includes(task.toLowerCase()));
-      if (task === '') {
-        return setMovies(movies);
-      }
+  // const handleSearch = (event) => {
+  //   event.preventDefault();
+  //   let task = document.getElementById("form1").value;
+  //   const filtered = movies.filter(item =>
+  //     item.title.toLowerCase().includes(task.toLowerCase()));
+  //     if (task === '') {
+  //       return setMovies(movies);
+  //     }
   
-      setMovies(filtered);
+  //     setMovies(filtered);
     
-    // setsearchMovie(movies.filter((movie) => movie.title == task));
-  };
+  //   // setsearchMovie(movies.filter((movie) => movie.title == task));
+  // };
   
   const isFav = (movie) => {
-    return favorit.some((Movie) => Movie.id == movie.id);
+    return favorit.some((Movie) => Movie.id === movie.id);
   };
 
   const handleAddToFav = (movie) => {
@@ -75,7 +75,7 @@ export default function Movies() {
   };
   return (
     <>
-    <div   className="MoviesEdit">
+    <div className="MoviesEdit">
       <Carousel variant="dark" style={{ color: "white" }}>
         {movies.map((movie) => (
           <Carousel.Item key={movie.id} style={{ color: "white" }}>
